@@ -1,0 +1,75 @@
+/* pages/bulletin/bulletin.wxss */
+/* 引入字体 */
+@import '../../fontStyle/newFont.wxss';
+.container{
+	position: relative;
+	width: 100%;
+	height: 1110rpx;
+}
+.backImageStyle{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+.contentAll{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	width: 100%;
+	height: 3000rpx;
+	/* background-color: red; */
+	/* opacity: 0.3; */
+	display: flex;
+	flex-direction: column;
+}
+/* 模块一样式 */
+.contentFirst{
+	border:1px solid black;
+	width: 708.33rpx;
+	height: 175rpx;
+	margin: 0 auto;
+	position: absolute;
+	margin-left: 20.83rpx;
+}
+.contentFirstImage{
+	width: 708.33rpx;
+	height: 175rpx;
+	position: absolute;
+}
+.contentFirstText{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+}
+.contentFirstTextTitle{
+	color: #1ce2c1;
+	font-size: 32.33rpx;
+	margin-top: 20rpx;
+	margin-left: 30rpx;
+}
+.contentFirstTextNum{
+	margin: 0 auto;
+	color: #ffffff;
+	font-family: '286-CAI978';
+	width: 100%;
+	text-align: center;
+	/* margin-left: 200rpx; */
+	font-size: 103rpx;
+}
+
+/* 模块二样式 */
+.contentSecond{
+	position: absolute;
+	border:1px solid forestgreen;
+	height: 400rpx;
+	width: 100%;
+}
+.canvas {
+    width: 80px;
+    height: 80px;
+		border:1px solid red;
+		position: absolute;
+}

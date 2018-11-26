@@ -1,0 +1,17 @@
+
+<view wx:if="{{isShowBJ}}" catchtap='cancelTime' class='picker-blackBJ'> </view>
+
+<view wx:if="{{isShow}} " class='picker-chose {{isScreening[screeningNo]}}' >
+
+	<view class='picker-chose-top'>
+		<text>是否要退出登录</text>
+	
+	</view>
+
+
+	<view class='picker-chose-bottom'>
+		<view catchtap='cancelTime' style='border-right: 1px solid #E0E3E6;' class='picker-chose-bottom-view'>取消</view>
+		<view catchtap='sureTime' class="picker-chose-bottom-view">确定</view>
+	</view>
+</view>
+

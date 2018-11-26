@@ -1,0 +1,117 @@
+/* pages/home/home.wxss */
+page{
+	background: #f5f9fe;
+}
+.content{
+  /* position: relative; */
+	width: 100%;
+	height: 100%;
+}
+.topContent{
+	width: 100%;
+	height: 437.5rpx;
+	/* border:1rpx solid rebeccapurple; */
+	/* position: relative; */
+}
+.userBackStyle{
+	position: relative;
+	width: 100%;
+	height: 437.5rpx;
+}
+.userInfo{
+	position: absolute;
+	/* border:1rpx solid red; */
+	top: 0;
+	left: 0;
+	width: 750rpx;
+	height: 437.5rpx;
+	z-index: 33;
+	/* box-sizing: border-box; */
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+.userHead{
+	width: 194.44rpx;
+	height: 194.44rpx;
+	margin: 0 auto;
+	margin-top: 89.58rpx;
+	background-color: #fff;
+	border-radius: 50%;
+}
+.textViewStyle{
+	/* border:1rpx solid royalblue; */
+	/* width: 194.44rpx; */
+	display: flex;
+	flex-direction: row;
+	/* text-align: center; */
+	margin: 0 auto;
+	margin-top: 25rpx;
+}
+.textUserName{
+	color: white;
+	font-size: 33.33rpx;
+	/* margin: 0 auto; */
+}
+.textUserLaber{
+	color: white;
+	font-size: 25rpx;
+	margin-left: 16.67rpx;
+	line-height: 53rpx;
+	/* margin: 0 auto; */
+}
+.btnViewStyle{
+	/* border:1px solid red; */
+	width: 100%;
+	height: 104.16rpx;
+	/* line-height: 104.16rpx; */
+	display: flex;
+	flex-direction: row;
+	background-color: #fff;
+	/* justify-content: flex-start; */
+}
+.btnImageFirst{
+	width:36.11rpx;
+	height: 34.03rpx;
+	margin-left: 50rpx;
+	margin-top: 36rpx;
+}
+.btnText{
+	font-size: 27.78rpx;
+	margin-left: 25rpx;
+	margin-top: 36rpx;
+}
+.btnImageLast{
+	width: 15.28rpx;
+	height: 27.78rpx;
+	margin-left: 480rpx;
+	margin-top: 42rpx;
+}
+.heightTop{
+	margin-top: 2.08rpx;
+}
+.banbenInfo{
+	font-size: 27.78rpx;
+	margin-left: 328rpx;
+	margin-top: 36rpx;
+}
+.btnImageHT{
+	width: 15.28rpx;
+	height: 27.78rpx;
+	margin-left: 40rpx;
+	margin-top: 42rpx;
+}
+.btn{
+  color: red;
+  background-color: #fff;
+  font-family: MicrosoftYaHeiLight;
+  font-size: 33.33rpx;
+  width: 100%;
+  height: 104.16rpx;
+  margin-top: 2.15rem;
+	line-height: 104.16rpx;
+}
+button::after{
+  border: none;
+}
+

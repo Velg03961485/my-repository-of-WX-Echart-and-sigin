@@ -1,0 +1,27 @@
+<!--pages/bulletin/bulletin.wxml-->
+<!-- <text>pages/bulletin/bulletin.wxml</text> -->
+<view class='container'>
+	<!-- 背景色 -->
+	<image src='../../images/bulletionBack.png' class='backImageStyle'></image>
+	<!-- 悬浮内容 -->
+	<scroll-view class='contentAll' scroll-y="true">
+		<!-- 模块一 -->
+		<view class='contentFirst'>
+			<image src='../../images/border.png' class='contentFirstImage'></image>
+			<view class='contentFirstText'>
+				<view class='contentFirstTextTitle'>全年累计客流量</view>
+				<view class='contentFirstTextNum' id='changeNum'>{{totolNumber}}</view>
+			</view>
+		</view>
+
+		<!-- 模块二 -->
+		<view class='contentSecond'>
+			<canvas class="canvas" canvas-id="ringGraph{{ item.id }}"></canvas>
+		</view>
+		
+
+
+
+
+	</scroll-view>
+</view>

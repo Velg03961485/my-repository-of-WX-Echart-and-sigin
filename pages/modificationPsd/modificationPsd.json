@@ -1,0 +1,9 @@
+{
+	"backgroundTextStyle": "dark",
+	"navigationBarBackgroundColor": "#eee",
+	"navigationBarTitleText": "修改密码",
+	"navigationBarTextStyle": "black",
+	"usingComponents": {
+		"dialog": "/components/Dialog/dialog"
+	}
+}

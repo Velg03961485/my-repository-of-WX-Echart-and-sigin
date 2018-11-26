@@ -1,0 +1,26 @@
+<!--pages/forgotpsd/forgotpsd.wxml-->
+<view class='content'>
+	<!-- 自定义组件引入 -->
+	<dialog id='dialog'></dialog>
+  <view class='userInfo'>
+  <view>
+    <view class='userName'>
+        <image src='../../images/head.png'></image>
+        <input placeholder='登录账号' bindinput='username' placeholder-class='placeholder'></input>
+      </view>
+      <view class='usernameV'>{{usernameV}}</view>
+  </view>
+    
+    <view>
+     <view class='userTel'>
+      <view>+86</view>
+      <input maxlength='11' bindinput='phone' type='number' placeholder='手机号' placeholder-class='placeholder'></input>
+    </view>
+    <view class='phoneV'>{{phoneV}}</view>
+    </view>
+   
+  </view>
+  <view>
+    <button bindtap='bindViewTap' class='btn'>完成</button> 
+  </view>
+</view>

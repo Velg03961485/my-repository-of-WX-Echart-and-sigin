@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <image src='../../images/logo.png' class='topImage'></image>
+    <text class='title'>知 己 鹰 眼</text>
+    <view>
+      <input type='text' bindinput='username' class='userName' maxlength='16' placeholder-class="phcolor" placeholder='请输入账号' value='{{username}}'></input>
+      <view class='usernameV'>{{usernameV}}</view>
+    </view>
+    <view>
+      <view class='passView'>
+        <input hidden='{{hidden}}' type='password' class='passWord' placeholder-class="phcolor" placeholder='请输入密码' bindinput="password" value='{{password}}'></input>
+        <input hidden='{{hiddened}}'  type='text' bindinput='password' class='passWord' placeholder-class="phcolor" placeholder='请输入密码' value='{{password}}'></input>
+        <view class='viewImg' bindtap="clickEyes">
+          <image class='yawStyle' src='{{img}}'></image>
+        </view>   
+      </view>
+      <view class='passwordV'>{{passwordV}}</view>
+    </view>
+  </view>
+  <view class="usermotto">
+    <checkbox-group class='cheStyle' bindchange='rememberMe' data-checked='{{checked}}'>
+      <checkbox class='getCheStyle' checked='{{checked}}'>记住账号密码</checkbox>
+    </checkbox-group>
+    <text class="forgetStyle" bindtap='forgotpsd'>忘记密码</text>
+  </view>
+  <button bindtap='bindViewTap' class='clickBtnStyle' disabled='{{buttonClick}}'>登录</button>
+
+	<!-- 自定义组件引入 -->
+	<dialog id='dialog'></dialog>
+</view>

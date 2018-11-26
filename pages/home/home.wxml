@@ -1,0 +1,38 @@
+<!--pages/home/home.wxml-->
+<view class='content'>
+	<!-- 自定义组件引入 -->
+	<!-- <dialog id='dialog'></dialog> -->
+<!-- 登录信息 -->
+	<view class='topContent'>
+		<image src='../../images/pageHead.png' class='userBackStyle'></image>
+		<view class='userInfo'>
+			<image src='{{headImg}}' class='userHead'></image>
+			<view class='textViewStyle'>
+				<text class='textUserName'>{{userName}}</text>
+				<text class='textUserLaber'>{{userLaber}}</text>
+			</view>
+		</view>
+	</view>
+<!-- 操作 -->
+<view class='btnViewStyle' bindtap='changepasswordClick'>
+		<image class='btnImageFirst' src='../../images/changePassword.png'></image>
+		<view class='btnText'>修改密码</view>
+		<image class='btnImageLast' src='../../images/sanRight.png'></image>
+</view>
+<view class='btnViewStyle heightTop'>
+		<image class='btnImageFirst' src='../../images/banben.png'></image>
+		<view class='btnText'>版本更新</view>
+		<view class='banbenInfo'>版本{{deviceVersion}}</view>
+		<image class='btnImageHT' src='../../images/sanRight.png'></image>
+</view>
+<!-- 退登操作 -->
+  <view>
+    <button class='btn' bindtap='bindViewTap'>退出登录</button>
+  </view>
+
+<!-- <button bindtap='ceshiBtn' class='clickBtnStyle' >测试</button> -->
+
+</view>
+
+
+<retreatLog id='retreatLog' isShow="{{isShow}}" bindsureclick="datePickerOnSureClick"></retreatLog>

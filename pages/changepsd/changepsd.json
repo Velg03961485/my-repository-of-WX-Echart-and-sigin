@@ -1,0 +1,9 @@
+{
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#eee",
+  "navigationBarTitleText": "忘记密码",
+  "navigationBarTextStyle": "black",
+  "usingComponents": {
+    "dialog": "/components/Dialog/dialog"
+  }
+}

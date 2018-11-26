@@ -1,0 +1,51 @@
+/* pages/telconfirm/telconfirm.wxss */
+.content{
+  margin: 88.19rpx 0 0 81.94rpx;
+  position: relative;
+}
+.teltitle{
+  color: #58b3fa;
+  font-size: 30.56rpx;
+  font-family: MicrosoftYaHei;
+  margin-bottom: 25rpx;
+}
+.telInfo{
+  display: flex;
+  color: #c8c8c8;
+  font-size: 25rpx;
+  font-family: MicrosoftYaHei;
+  margin-bottom: 86.11rpx;
+}
+.formContent{
+  /* margin-bottom: 1.08rem; */
+  display: flex;
+}
+.iptbox{
+  width: 80.56rpx;
+  height: 80.56rpx;
+  margin-right: 21.56rpx;
+  border-bottom: 1px solid #c8c8c8;
+  text-align: center;
+}
+.ipt{ 
+ width: 0; 
+ height: 0;
+} 
+.btn-area{ 
+ width: 80%; 
+ background-color: #fff; 
+ color:#58b3fa; 
+ font-size: 30.56rpx;
+ margin: 0;
+}
+.setTime{
+  display: flex;
+  color:  #c8c8c8;
+  font-size:25rpx;
+  font-family: MicrosoftYaHei;
+  line-height: 140rpx;
+  margin-left: 20rpx;
+}
+.see{
+  display: flex;
+}

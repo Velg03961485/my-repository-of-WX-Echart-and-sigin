@@ -1,0 +1,10 @@
+{
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#eee",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black",
+    "usingComponents": {
+			"retreatLog":"../../components/retreatLog/retreatLog"
+    }
+		
+}

@@ -1,0 +1,5 @@
+<!--components/dialog.wxml-->
+<!-- <text>components/dialog.wxml</text> -->
+<view class='layer' hidden='{{layShow}}'>
+		<text class='layTitle {{backColor}}'>{{message}}</text>
+</view>

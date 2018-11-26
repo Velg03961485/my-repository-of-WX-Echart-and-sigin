@@ -1,0 +1,56 @@
+/* pages/modificationPsd/modificationPsd.wxss */
+.content{
+  margin: 88.19rpx 77.78rpx 0 81.94rpx;
+  position: relative;
+}
+.userName,.userTel{
+   width: 590.28rpx;
+  margin: auto;
+  display: flex;
+  border-bottom: 1px solid #c8c8c8;
+}
+.userInfo view input{
+  font-size: 27.78rpx;
+  color: #c8c8c8;
+
+}
+.userTel{
+  margin-top: 64.58rpx;
+}
+.placeholder{
+  color: #c8c8c8;
+ font-size: 27.78rpx;
+}
+.userName image,.userTel image{
+  width: 29.2rpx;
+  height: 33.2rpx;
+   margin:8rpx 27.6rpx 15.2rpx 46rpx;
+  border-right: 1px solid #59b5fa;
+  padding-right: 46rpx;
+}
+/* .userTel view{
+  color: #59b5fa;
+  border: 0;
+  width:2.43rem;
+  margin: 0.2rem 0.69rem 0 0.6rem;
+  border-right:1px solid #59b5fa;
+  height:0.73rem;
+  font-size:0.73rem;
+} */
+.psdV,.repsdV{
+  font-size: 24rpx;
+  color: red;
+  margin-left: 160rpx;
+}
+.btn{
+  color: #fff;
+  background-color: #59b5fa;
+  font-family: MicrosoftYaHeiLight;
+  font-size: 33.2rpx;
+   width: 590rpx;
+  height: 80rpx;
+  margin-top: 86rpx;
+}
+button::after{
+  border: none;
+}

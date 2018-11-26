@@ -1,0 +1,31 @@
+<!--pages/telconfirm/telconfirm.wxml-->
+<view class='content'>
+	<!-- 自定义组件引入 -->
+	<dialog id='dialog'></dialog>
+  <view class='teltitle'>为了确认您的身份需要验证手机号</view>
+  <view class='telInfo'>
+    <view>验证码已经发送至您的手机</view>
+    <view class='telNumber'>{{phone}}</view>
+  </view>
+    <form bindsubmit="formSubmit">
+    <view class='formContent'>
+      <block wx:for="{{Length}}" wx:key="item">
+        <input class='iptbox' value="{{Value.length>=index+1?Value[index]:''}}" disabled type='number' catchtap='Tap'></input>
+      </block>
+      <view class='setTime'>
+    <view wx:if="{{see}}" class='see'> 
+      <view>{{countDownNum}}</view>
+      <view>秒后重新发送</view>
+    </view>
+    <view wx:else="{{cover}}" bindtap='endTime'>重新发送</view>
+  </view>
+    </view>
+
+    <input name="password" password="{{true}}" class='ipt' maxlength="{{Length}}" focus="{{isFocus}}" bindinput="Focus" type='number'></input>
+    
+    <view>
+      <button class="btn-area" formType="submit">提交</button>
+    </view>
+  </form>
+  
+</view>

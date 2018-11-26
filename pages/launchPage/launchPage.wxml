@@ -1,0 +1,13 @@
+<!--pages/launchPage/launchPage.wxml-->
+<!-- <view class='backStyle' style="background:url('../../images/background.png')">
+
+</view> -->
+<image class='backStyle' style="height:{{backHeight}}px" src='../../images/background.png'></image>
+<view class='textContent'>
+	<image class='topImage' src='../../images/logoWhite.png'></image>
+	<view class='fontView'>
+		<text class='fontStyle firstFont'>鹰</text>
+		<text class='fontStyle lastFont'>眼</text>
+	</view>
+	<text class='bottomFont'>杭州知己科技有限公司</text>
+</view>

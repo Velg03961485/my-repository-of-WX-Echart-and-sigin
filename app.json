@@ -1,0 +1,53 @@
+{
+	"pages": [
+		"pages/launchPage/launchPage",
+		"pages/index/index",
+		"pages/telconfirm/telconfirm",
+		"pages/forgotpsd/forgotpsd",
+		"pages/changepsd/changepsd",
+		"pages/home/home",
+		"pages/chooseTime/chooseTime",
+		"pages/bulletin/bulletin",
+		"pages/analyze/analyze",
+		"pages/ranking/ranking",
+		"pages/modificationPsd/modificationPsd"
+	],
+	"window": {
+		"backgroundTextStyle": "dark",
+		"navigationBarBackgroundColor": "#eee",
+		"navigationBarTitleText": "",
+		"navigationBarTextStyle": "black"
+	},
+	"tabBar": {
+		"color": "#c8c8c8",
+		"selectedColor": "#4571d6",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "#c8c8c8",
+		"list": [
+			{
+				"selectedIconPath": "images/bulletinUp.png",
+				"iconPath": "images/bulletinDown.png",
+				"pagePath": "pages/bulletin/bulletin",
+				"text": "简报"
+			},
+			{
+				"selectedIconPath": "images/analyzeUp.png",
+				"iconPath": "images/analyzeDown.png",
+				"pagePath": "pages/analyze/analyze",
+				"text": "分析"
+			},
+			{
+				"selectedIconPath": "images/rankingUp.png",
+				"iconPath": "images/rankingDown.png",
+				"pagePath": "pages/ranking/ranking",
+				"text": "排名"
+			},
+			{
+				"selectedIconPath": "images/myUp.png",
+				"iconPath": "images/myDown.png",
+				"pagePath": "pages/home/home",
+				"text": "我的"
+			}
+		]
+	}
+}

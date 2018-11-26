@@ -1,0 +1,116 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.topImage{
+  width: 180.56rpx;
+  height: 126.17rpx;
+  margin: 0 auto;
+  margin-top: 76.39rpx;
+}
+.title{
+  color: #373737;
+  font-size: 38.89rpx;
+  margin: 0 auto;
+  margin-top: 44.45rpx;
+  font-family: MicrosoftYaHeiLight;
+}
+.phcolor{
+  color: #c8c8c8;
+  font-size: 33.33rpx; 
+}
+.userName{
+  border-bottom:1px solid #e2e2e2;
+  color: #c8c8c8;
+  width: 652.78rpx;
+  font-size: 33.33rpx;  
+  padding: 11.8rpx 0;
+  margin-top: 165.97rpx
+}
+.passView{
+   border-bottom:1rpx solid  #e2e2e2; 
+  position: relative;
+   width: 652.78rpx;
+  margin-top: 69.44rpx;
+  display: flex;
+}
+.passWord{
+   /* border-bottom:1px solid red;  */
+  width: 525.78rpx;
+  /* margin-top: 1.74rem; */
+  color: #c8c8c8;
+  font-size: 33.33rpx; 
+  padding: 11.8rpx 0;
+}
+.yawStyle{
+  width: 1.26rem;
+  height: 0.62rem; 
+  position: absolute;
+  bottom: 0.7rem;
+  right: 0.19rem;
+}
+
+.usermotto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 652.78rpx;
+  margin-top: 25.69rpx;
+	/* border:1px solid red; */
+}
+.cheStyle{
+  /* margin-left:0.5rem; */
+}
+.getCheStyle{
+  font-size: 27.78rpx;
+  color: rgba(42, 42, 42, 0.8);
+  font-family: MicrosoftYaHeiLight;
+  line-height: 60rpx;
+}
+.forgetStyle{
+  font-size: 27.78rpx;
+  color: rgba(42, 42, 42, 0.8);
+  font-family: MicrosoftYaHeiLight;
+  /* align-self: flex-start; */
+  /* margin-right: 0.5rem; */
+  line-height: 61rpx;
+}
+/*对勾选框的样式重新调整  */
+checkbox .wx-checkbox-input{
+   width: 20.8rpx; /* 背景的宽 */
+   height: 20.8rpx; /* 背景的高 */
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked{
+   border-color: #58b5fa;
+}
+checkbox .wx-checkbox-input.wx-checkbox-input-checked::before{
+   color:#58b5fa; /* 对勾颜色 淡蓝 */
+   width: 20.8rpx; /* 背景的宽 */
+   height: 20.8rpx; /* 背景的高 */
+   font-size: 20.8rpx;
+}
+.clickBtnStyle{
+  /* width: 16.32rem; */
+	width: 652.78rpx;
+  height: 90.28rpx;
+  margin: 0 auto;
+  margin-top: 75rpx;
+  color: #ffffff;
+  font-size: 33.33rpx;
+  background-color: #5f7cfc;
+	line-height: 90.28rpx;
+}
+.usernameV,.passwordV{
+  font-size: 24rpx;
+  color: #f00;
+}
+.viewImg{
+  /* border:1px solid red; */
+  width: 80rpx;
+  height: 60rpx;
+}
+.container{
+	position: relative;
+}

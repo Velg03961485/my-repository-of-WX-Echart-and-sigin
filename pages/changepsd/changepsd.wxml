@@ -1,0 +1,27 @@
+<!--pages/changePsd/changepsd.wxml-->
+<view class='content'>
+	<!-- 自定义组件引入 -->
+	<dialog id='dialog'></dialog>
+ <view class='userInfo'>
+ <view>
+ <view class='userName'>
+      <image src='../../images/newpsd.png'></image>
+      <input type='password' placeholder='新密码' bindinput='psd' placeholder-class='placeholder'></input>
+    </view>
+    <view class='psdV'>{{psdV}}</view>
+ </view>
+    
+
+  <view>
+    <view class='userTel'>
+        <image src='../../images/repsd.png'></image>
+        <input type='password' placeholder='确认密码' bindinput='repsd' placeholder-class='placeholder'></input>
+      </view>
+      <view class='repsdV'>{{repsdV}}</view>
+  </view>
+  </view>
+
+  <view>
+    <button class='btn' bindtap='bindViewTap'>确认</button> 
+  </view>
+</view>
